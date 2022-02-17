@@ -9,3 +9,20 @@ extend-exclude = '''
   | .idea/
 )/'''
 
+
+[tool.poetry]
+name = "sudoku_solver"
+version = "0.1.0"
+description = "Sudoku solver"
+authors = ["Ross <rostikvunarchuk@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "black"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
